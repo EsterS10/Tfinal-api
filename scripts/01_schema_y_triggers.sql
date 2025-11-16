@@ -18,6 +18,11 @@
 --
 -- Table structure for table `logs_auditoria`
 --
+DROP DATABASE IF EXISTS tfinal_bd;
+CREATE DATABASE tfinal_bd
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_general_ci;
+USE tfinal_bd;
 
 DROP TABLE IF EXISTS `logs_auditoria`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
